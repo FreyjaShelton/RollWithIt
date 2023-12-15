@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://vqvmmhpl4hrt"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_ohmbv"]
+[ext_resource type="PackedScene" uid="uid://cfc0yt0vnr8aw" path="res://player.tscn" id="2_b7qs5"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_ohmbv")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(8, 0, 8, 128, 80, 128, 80, 160, 112, 160, 112, 128, 184, 128, 216, 152, 240, 152, 264, 128, 312, 128, 312, 0, 320, 0, 320, 128, 320, 184, 0, 184, 0, 0)
+
+[node name="Polygon2D" type="Polygon2D" parent="StaticBody2D/CollisionPolygon2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_b7qs5")]
+position = Vector2(56, 88)

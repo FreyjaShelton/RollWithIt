@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cfc0yt0vnr8aw"]
+
+[ext_resource type="Texture2D" uid="uid://b68wgls3ce1d2" path="res://icon.svg" id="1_62ypc"]
+[ext_resource type="Script" path="res://player.gd" id="1_mma7c"]
+[ext_resource type="Resource" uid="uid://5gvo54bam3w8" path="res://PlayerMovementData/DefaultMovementData.tres" id="2_yyfqa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d35nu"]
+
+[node name="Player" type="CharacterBody2D"]
+floor_constant_speed = true
+floor_snap_length = 3.0
+script = ExtResource("1_mma7c")
+movement_data = ExtResource("2_yyfqa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_d35nu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -1.13687e-13)
+scale = Vector2(0.15625, 0.15625)
+texture = ExtResource("1_62ypc")
+
+[node name="CoyoteJumpTimer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
