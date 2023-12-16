@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bvymit6qxeqa6"
+path="res://.godot/imported/1x.png-75fb6e02bc4407c12d78d006299d9c34.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://SampleAssets/Update 1.8/Character Animation/Idle/Blink/1x.png"
+dest_files=["res://.godot/imported/1x.png-75fb6e02bc4407c12d78d006299d9c34.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

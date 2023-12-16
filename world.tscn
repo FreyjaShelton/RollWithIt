@@ -1,17 +1,43 @@
-[gd_scene load_steps=3 format=3 uid="uid://vqvmmhpl4hrt"]
+[gd_scene load_steps=4 format=3 uid="uid://vqvmmhpl4hrt"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_ohmbv"]
 [ext_resource type="PackedScene" uid="uid://cfc0yt0vnr8aw" path="res://player.tscn" id="2_b7qs5"]
+[ext_resource type="PackedScene" uid="uid://crsxjlgcn44bw" path="res://BaseMidPlatform.tscn" id="3_l26c1"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_ohmbv")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PackedVector2Array(8, 0, 8, 128, 80, 128, 80, 160, 112, 160, 112, 128, 184, 128, 216, 152, 240, 152, 264, 128, 312, 128, 312, 0, 320, 0, 320, 128, 320, 184, 0, 184, 0, 0)
-
-[node name="Polygon2D" type="Polygon2D" parent="StaticBody2D/CollisionPolygon2D"]
-
 [node name="Player" parent="." instance=ExtResource("2_b7qs5")]
 position = Vector2(56, 88)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-168, 152)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-120, 152)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-24, 152)
+
+[node name="StaticBody2D8" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-96, 80)
+
+[node name="StaticBody2D10" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-96, 32)
+
+[node name="StaticBody2D11" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-8, 32)
+
+[node name="StaticBody2D9" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-8, 80)
+
+[node name="StaticBody2D5" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(72, 152)
+
+[node name="StaticBody2D6" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(24, 152)
+
+[node name="StaticBody2D7" parent="." instance=ExtResource("3_l26c1")]
+position = Vector2(-72, 152)
