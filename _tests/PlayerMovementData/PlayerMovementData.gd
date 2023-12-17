@@ -11,4 +11,4 @@ extends Resource
 @export var wall_slide_speed = .02
 @export var max_wall_slide_speed = 50
 @export var ground_pound = false
-@export var ground_pound_speed = 150
+@export var ground_pound_speed = 500
