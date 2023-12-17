@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcx6l4k8pscyp"
-path="res://.godot/imported/GrassHillRight2_Down Shadow.png-8d7f39eba21a470fd9c5f1241b588a4a.ctex"
+path="res://.godot/imported/GrassHillRight2_Down Shadow.png-4340fd5de9e713784914c0fbe953a4f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8.5/New Tiles/png/128x128/GrassHillRight2_Down Shadow.png"
-dest_files=["res://.godot/imported/GrassHillRight2_Down Shadow.png-8d7f39eba21a470fd9c5f1241b588a4a.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8.5/New Tiles/png/128x128/GrassHillRight2_Down Shadow.png"
+dest_files=["res://.godot/imported/GrassHillRight2_Down Shadow.png-4340fd5de9e713784914c0fbe953a4f0.ctex"]
 
 [params]
 

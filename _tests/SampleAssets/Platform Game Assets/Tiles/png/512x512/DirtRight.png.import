@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfakc7s8b6yfj"
-path="res://.godot/imported/DirtRight.png-c2e64da767e929edaa52c3368fa15ad5.ctex"
+path="res://.godot/imported/DirtRight.png-259aac2851da81367f70852e81812e66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Tiles/png/512x512/DirtRight.png"
-dest_files=["res://.godot/imported/DirtRight.png-c2e64da767e929edaa52c3368fa15ad5.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Tiles/png/512x512/DirtRight.png"
+dest_files=["res://.godot/imported/DirtRight.png-259aac2851da81367f70852e81812e66.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvymit6qxeqa6"
-path="res://.godot/imported/1x.png-75fb6e02bc4407c12d78d006299d9c34.ctex"
+path="res://.godot/imported/1x.png-529a91fc165ad821d345c4a012e29df4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8/Character Animation/Idle/Blink/1x.png"
-dest_files=["res://.godot/imported/1x.png-75fb6e02bc4407c12d78d006299d9c34.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8/Character Animation/Idle/Blink/1x.png"
+dest_files=["res://.godot/imported/1x.png-529a91fc165ad821d345c4a012e29df4.ctex"]
 
 [params]
 

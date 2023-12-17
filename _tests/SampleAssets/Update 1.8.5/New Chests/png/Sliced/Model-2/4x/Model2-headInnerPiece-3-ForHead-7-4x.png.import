@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyvn5hpykslsw"
-path="res://.godot/imported/Model2-headInnerPiece-3-ForHead-7-4x.png-71a6d733982a3f491b9deb3835594989.ctex"
+path="res://.godot/imported/Model2-headInnerPiece-3-ForHead-7-4x.png-c5fcd3c218ddd70edb8824aee0b6f8db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8.5/New Chests/png/Sliced/Model-2/4x/Model2-headInnerPiece-3-ForHead-7-4x.png"
-dest_files=["res://.godot/imported/Model2-headInnerPiece-3-ForHead-7-4x.png-71a6d733982a3f491b9deb3835594989.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8.5/New Chests/png/Sliced/Model-2/4x/Model2-headInnerPiece-3-ForHead-7-4x.png"
+dest_files=["res://.godot/imported/Model2-headInnerPiece-3-ForHead-7-4x.png-c5fcd3c218ddd70edb8824aee0b6f8db.ctex"]
 
 [params]
 

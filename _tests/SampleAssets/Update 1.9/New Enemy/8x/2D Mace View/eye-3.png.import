@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c68i5p0vjrab7"
-path="res://.godot/imported/eye-3.png-11dc8d0e25dfd3d692bdb9c20e2f575c.ctex"
+path="res://.godot/imported/eye-3.png-a5dae9b5461b49c600250853a4e2b459.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/New Enemy/8x/2D Mace View/eye-3.png"
-dest_files=["res://.godot/imported/eye-3.png-11dc8d0e25dfd3d692bdb9c20e2f575c.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/New Enemy/8x/2D Mace View/eye-3.png"
+dest_files=["res://.godot/imported/eye-3.png-a5dae9b5461b49c600250853a4e2b459.ctex"]
 
 [params]
 

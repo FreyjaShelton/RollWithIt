@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://binpjpl7nd6q4"
-path="res://.godot/imported/GrassJoinHillRight2&Left2.png-737b7e10ac33a1fe3cb017a0b606aa4c.ctex"
+path="res://.godot/imported/GrassJoinHillRight2&Left2.png-4a6f5d8b7e6a0c4bbf69da4009c957e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Autumn/128x128/GrassJoinHillRight2&Left2.png"
-dest_files=["res://.godot/imported/GrassJoinHillRight2&Left2.png-737b7e10ac33a1fe3cb017a0b606aa4c.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Autumn/128x128/GrassJoinHillRight2&Left2.png"
+dest_files=["res://.godot/imported/GrassJoinHillRight2&Left2.png-4a6f5d8b7e6a0c4bbf69da4009c957e1.ctex"]
 
 [params]
 

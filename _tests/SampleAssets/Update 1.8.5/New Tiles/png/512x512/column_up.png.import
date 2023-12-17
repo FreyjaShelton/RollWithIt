@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5xlidnrvrln4"
-path="res://.godot/imported/column_up.png-16ed9973dec1706a93704ef25d6b819c.ctex"
+path="res://.godot/imported/column_up.png-ccfc2cff9c6d7e0bce03909072f7b762.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8.5/New Tiles/png/512x512/column_up.png"
-dest_files=["res://.godot/imported/column_up.png-16ed9973dec1706a93704ef25d6b819c.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8.5/New Tiles/png/512x512/column_up.png"
+dest_files=["res://.godot/imported/column_up.png-ccfc2cff9c6d7e0bce03909072f7b762.ctex"]
 
 [params]
 

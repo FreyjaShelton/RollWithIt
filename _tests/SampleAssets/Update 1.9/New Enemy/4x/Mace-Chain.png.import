@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnl0ixep1u22y"
-path="res://.godot/imported/Mace-Chain.png-5e2284ba8cc227b2549ff060cb966c47.ctex"
+path="res://.godot/imported/Mace-Chain.png-56c4a1247998788f1f2b3581d44da452.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/New Enemy/4x/Mace-Chain.png"
-dest_files=["res://.godot/imported/Mace-Chain.png-5e2284ba8cc227b2549ff060cb966c47.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/New Enemy/4x/Mace-Chain.png"
+dest_files=["res://.godot/imported/Mace-Chain.png-56c4a1247998788f1f2b3581d44da452.ctex"]
 
 [params]
 

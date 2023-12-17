@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3nn35mr2t3nk"
-path="res://.godot/imported/Pupil 256.png-f4788b01a5d34054b06cfe12a3f5e56c.ctex"
+path="res://.godot/imported/Pupil 256.png-07c788f88cb21b7e7c746b54850cfe11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Enemies/png/256x256/Pupil 256.png"
-dest_files=["res://.godot/imported/Pupil 256.png-f4788b01a5d34054b06cfe12a3f5e56c.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Enemies/png/256x256/Pupil 256.png"
+dest_files=["res://.godot/imported/Pupil 256.png-07c788f88cb21b7e7c746b54850cfe11.ctex"]
 
 [params]
 

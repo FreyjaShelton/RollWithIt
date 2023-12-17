@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx218v468m78i"
-path="res://.godot/imported/Mountain_3.png-6f75ea4b1b95534c47084fa433c06dab.ctex"
+path="res://.godot/imported/Mountain_3.png-b75defc54c3cd30368fcc5dea2f40877.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Background/png/2048x1536/All/Mountain_3.png"
-dest_files=["res://.godot/imported/Mountain_3.png-6f75ea4b1b95534c47084fa433c06dab.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Background/png/2048x1536/All/Mountain_3.png"
+dest_files=["res://.godot/imported/Mountain_3.png-b75defc54c3cd30368fcc5dea2f40877.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnvoljot21683"
-path="res://.godot/imported/Spike_Up.png-a59eda41cff307c4c52898ac5a1a421f.ctex"
+path="res://.godot/imported/Spike_Up.png-a3de6a0f72e895d6cb4425982823fb14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Enemies/png/64x64/Spike_Up.png"
-dest_files=["res://.godot/imported/Spike_Up.png-a59eda41cff307c4c52898ac5a1a421f.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Enemies/png/64x64/Spike_Up.png"
+dest_files=["res://.godot/imported/Spike_Up.png-a3de6a0f72e895d6cb4425982823fb14.ctex"]
 
 [params]
 

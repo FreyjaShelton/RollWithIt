@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5ncda7iwy1cd"
-path="res://.godot/imported/Mace.png-6d08dc204948ab2d1578910b17f3c371.ctex"
+path="res://.godot/imported/Mace.png-500696a23db8a9b33cd0844c6bb58bc1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Enemies/png/256x256/Mace.png"
-dest_files=["res://.godot/imported/Mace.png-6d08dc204948ab2d1578910b17f3c371.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Enemies/png/256x256/Mace.png"
+dest_files=["res://.godot/imported/Mace.png-500696a23db8a9b33cd0844c6bb58bc1.ctex"]
 
 [params]
 

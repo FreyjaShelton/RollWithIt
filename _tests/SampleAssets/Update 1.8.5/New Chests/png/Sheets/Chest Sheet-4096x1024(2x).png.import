@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxvs0v4clwur8"
-path="res://.godot/imported/Chest Sheet-4096x1024(2x).png-ceb1c2ff1ee50b6801f88ebd65775410.ctex"
+path="res://.godot/imported/Chest Sheet-4096x1024(2x).png-4714ac14d524eb035c63952588699abb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8.5/New Chests/png/Sheets/Chest Sheet-4096x1024(2x).png"
-dest_files=["res://.godot/imported/Chest Sheet-4096x1024(2x).png-ceb1c2ff1ee50b6801f88ebd65775410.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8.5/New Chests/png/Sheets/Chest Sheet-4096x1024(2x).png"
+dest_files=["res://.godot/imported/Chest Sheet-4096x1024(2x).png-4714ac14d524eb035c63952588699abb.ctex"]
 
 [params]
 

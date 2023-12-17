@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn1kb3lu8r3kn"
-path="res://.godot/imported/Eyelid 256.png-578b7650496cdad833c7f7c05d9117f2.ctex"
+path="res://.godot/imported/Eyelid 256.png-138dd05c0ab7fbe8abfb2464cdafe3ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Enemies/png/256x256/Eyelid 256.png"
-dest_files=["res://.godot/imported/Eyelid 256.png-578b7650496cdad833c7f7c05d9117f2.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Enemies/png/256x256/Eyelid 256.png"
+dest_files=["res://.godot/imported/Eyelid 256.png-138dd05c0ab7fbe8abfb2464cdafe3ca.ctex"]
 
 [params]
 
