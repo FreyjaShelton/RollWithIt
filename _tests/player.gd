@@ -7,18 +7,22 @@ extends CharacterBody2D
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var double_jump = false
 var wall_slide = false
+var is_ground_pound = false
 
 func _physics_process(delta):
-	apply_gravity(delta)
-	handle_jump()
-	handle_wall_jump()
+	handle_ground_pound()
 	
-	var input_axis = Input.get_axis("ui_left", "ui_right")
-	apply_friction(input_axis, delta)
-	apply_air_resistance(input_axis, delta)
-	handle_acceleration(input_axis, delta)
-	handle_air_acceleration(input_axis, delta)
-	handle_wall_slide(input_axis, delta)
+	if not is_ground_pound:
+		apply_gravity(delta)
+		handle_jump()
+		handle_wall_jump()
+		
+		var input_axis = Input.get_axis("ui_left", "ui_right")
+		apply_friction(input_axis, delta)
+		apply_air_resistance(input_axis, delta)
+		handle_acceleration(input_axis, delta)
+		handle_air_acceleration(input_axis, delta)
+		handle_wall_slide(input_axis, delta)
 	
 	var was_on_floor = is_on_floor()
 	move_and_slide()
@@ -62,6 +66,22 @@ func handle_wall_slide(input_axis, delta):
 			velocity.y = min(velocity.y, movement_data.max_wall_slide_speed)
 		else:
 			wall_slide = false
+
+func handle_ground_pound():
+	if Input.is_action_just_pressed("ui_ground_pound") and not is_on_floor():
+		if movement_data.ground_pound and not is_ground_pound:
+			is_ground_pound = true
+			velocity = Vector2.ZERO
+			$AnimationPlayer.play("GroundPoundInit")
+	
+	if is_on_floor() and is_ground_pound:
+		$AnimationPlayer.play("GroundPoundLand")
+
+func move_ground_pound():
+	velocity = Vector2(0, movement_data.ground_pound_speed)
+
+func end_ground_pound():
+	is_ground_pound = false
 
 func handle_coyote_jump(was_on_floor):
 	var just_left_ground = was_on_floor and not is_on_floor() and velocity.y >= 0

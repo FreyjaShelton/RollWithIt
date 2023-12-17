@@ -1,9 +1,9 @@
-[gd_resource type="Resource" script_class="PlayerMovementData" load_steps=2 format=3 uid="uid://5gvo54bam3w8"]
+[gd_resource type="Resource" script_class="PlayerMovementData" load_steps=2 format=3 uid="uid://do2pym3nns8s6"]
 
-[ext_resource type="Script" path="res://_tests/PlayerMovementData/PlayerMovementData.gd" id="1_maw1y"]
+[ext_resource type="Script" path="res://_tests/PlayerMovementData/PlayerMovementData.gd" id="1_ahlsk"]
 
 [resource]
-script = ExtResource("1_maw1y")
+script = ExtResource("1_ahlsk")
 speed = 100.0
 acceleration = 800.0
 friction = 1000.0
