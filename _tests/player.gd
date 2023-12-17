@@ -50,7 +50,7 @@ func handle_jump():
 			double_jump = false
 
 func handle_wall_slide(input_axis, delta):
-	if not is_on_wall():
+	if not is_on_wall() or (is_on_wall() and input_axis == 0):
 		wall_slide = false
 		return
 
@@ -59,6 +59,9 @@ func handle_wall_slide(input_axis, delta):
 		if input_axis != wall_normal.x:
 			wall_slide = true
 			velocity.y += gravity * delta * movement_data.wall_slide_speed
+			velocity.y = min(velocity.y, movement_data.max_wall_slide_speed)
+		else:
+			wall_slide = false
 
 func handle_coyote_jump(was_on_floor):
 	var just_left_ground = was_on_floor and not is_on_floor() and velocity.y >= 0
