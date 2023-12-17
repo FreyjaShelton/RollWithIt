@@ -14,3 +14,4 @@ gravity_scale = 1.0
 wall_slide_speed = 0.4
 max_wall_slide_speed = 50
 ground_pound = true
+ground_pound_speed = 500
