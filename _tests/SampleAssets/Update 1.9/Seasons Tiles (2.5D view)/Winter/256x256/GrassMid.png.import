@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlhkwe2w24wyh"
-path="res://.godot/imported/GrassMid.png-8cb2c12fbe14d0faead988afaf9695c6.ctex"
+path="res://.godot/imported/GrassMid.png-b33219202413687bb4ab14ba3695b8b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Winter/256x256/GrassMid.png"
-dest_files=["res://.godot/imported/GrassMid.png-8cb2c12fbe14d0faead988afaf9695c6.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Winter/256x256/GrassMid.png"
+dest_files=["res://.godot/imported/GrassMid.png-b33219202413687bb4ab14ba3695b8b8.ctex"]
 
 [params]
 

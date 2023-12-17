@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqrgef2nc7yxx"
-path="res://.godot/imported/bodyWithoutInnerPiece-6-4x.png-0f94a8bb7b168167c3e542f45fbdce61.ctex"
+path="res://.godot/imported/bodyWithoutInnerPiece-6-4x.png-97925ce009b7a81d8a422629825a7243.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Chest/png/Sliced/Sliced 2/4x/bodyWithoutInnerPiece-6-4x.png"
-dest_files=["res://.godot/imported/bodyWithoutInnerPiece-6-4x.png-0f94a8bb7b168167c3e542f45fbdce61.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Chest/png/Sliced/Sliced 2/4x/bodyWithoutInnerPiece-6-4x.png"
+dest_files=["res://.godot/imported/bodyWithoutInnerPiece-6-4x.png-97925ce009b7a81d8a422629825a7243.ctex"]
 
 [params]
 

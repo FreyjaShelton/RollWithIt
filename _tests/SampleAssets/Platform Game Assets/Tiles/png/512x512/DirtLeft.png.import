@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6t1443dj445a"
-path="res://.godot/imported/DirtLeft.png-bc7aba48c37c13540cc0e6e3ab6f2500.ctex"
+path="res://.godot/imported/DirtLeft.png-808930a5efd73a97039e4e0b7aec24a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Tiles/png/512x512/DirtLeft.png"
-dest_files=["res://.godot/imported/DirtLeft.png-bc7aba48c37c13540cc0e6e3ab6f2500.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Tiles/png/512x512/DirtLeft.png"
+dest_files=["res://.godot/imported/DirtLeft.png-808930a5efd73a97039e4e0b7aec24a1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2h1mrh4jv7rx"
-path="res://.godot/imported/GrassJoinHillRight&Left.png-3ca0966ca46cff4fb10083d78f1c7238.ctex"
+path="res://.godot/imported/GrassJoinHillRight&Left.png-48215178ecbe6bc839039949ebc8d8e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/New Tiles (2D view)/Spring/128x128/GrassJoinHillRight&Left.png"
-dest_files=["res://.godot/imported/GrassJoinHillRight&Left.png-3ca0966ca46cff4fb10083d78f1c7238.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/New Tiles (2D view)/Spring/128x128/GrassJoinHillRight&Left.png"
+dest_files=["res://.godot/imported/GrassJoinHillRight&Left.png-48215178ecbe6bc839039949ebc8d8e2.ctex"]
 
 [params]
 

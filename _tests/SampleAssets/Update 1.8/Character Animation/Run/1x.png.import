@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn2xshfdxtmm8"
-path="res://.godot/imported/1x.png-8beeb0677de065a5c18bd469cea6665a.ctex"
+path="res://.godot/imported/1x.png-9e253cd621728e2d8e34869cb3ebd75c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8/Character Animation/Run/1x.png"
-dest_files=["res://.godot/imported/1x.png-8beeb0677de065a5c18bd469cea6665a.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8/Character Animation/Run/1x.png"
+dest_files=["res://.godot/imported/1x.png-9e253cd621728e2d8e34869cb3ebd75c.ctex"]
 
 [params]
 

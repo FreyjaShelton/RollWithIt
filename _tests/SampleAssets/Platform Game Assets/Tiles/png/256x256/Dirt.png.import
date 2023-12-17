@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c51b3o4od75w8"
-path="res://.godot/imported/Dirt.png-7c890ff5f0f0eac8612bc4a3c5982449.ctex"
+path="res://.godot/imported/Dirt.png-3b52317883a58d58f09c4ada284c48cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Tiles/png/256x256/Dirt.png"
-dest_files=["res://.godot/imported/Dirt.png-7c890ff5f0f0eac8612bc4a3c5982449.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Tiles/png/256x256/Dirt.png"
+dest_files=["res://.godot/imported/Dirt.png-3b52317883a58d58f09c4ada284c48cc.ctex"]
 
 [params]
 

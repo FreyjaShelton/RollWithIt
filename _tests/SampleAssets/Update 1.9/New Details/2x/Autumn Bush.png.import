@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://de2d64ricyayh"
-path="res://.godot/imported/Autumn Bush.png-d087dd0104a753dc26fc86e1b4786f00.ctex"
+path="res://.godot/imported/Autumn Bush.png-e318191db7c55316fa0b80377ffd4928.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/New Details/2x/Autumn Bush.png"
-dest_files=["res://.godot/imported/Autumn Bush.png-d087dd0104a753dc26fc86e1b4786f00.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/New Details/2x/Autumn Bush.png"
+dest_files=["res://.godot/imported/Autumn Bush.png-e318191db7c55316fa0b80377ffd4928.ctex"]
 
 [params]
 

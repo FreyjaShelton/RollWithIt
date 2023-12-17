@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://weullvjj3fmj"
-path="res://.godot/imported/Mac 512.png-b963e3f65d924a08607389152b413141.ctex"
+path="res://.godot/imported/Mac 512.png-9bf2d84f77a9763da280371f5964e668.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Enemies/png/512x512/Mac 512.png"
-dest_files=["res://.godot/imported/Mac 512.png-b963e3f65d924a08607389152b413141.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Enemies/png/512x512/Mac 512.png"
+dest_files=["res://.godot/imported/Mac 512.png-9bf2d84f77a9763da280371f5964e668.ctex"]
 
 [params]
 

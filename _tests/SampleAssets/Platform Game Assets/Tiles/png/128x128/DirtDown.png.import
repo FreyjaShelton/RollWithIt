@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd3utx8rdnaeq"
-path="res://.godot/imported/DirtDown.png-c9d3c3d3865bdb61d051032a9b3c23f0.ctex"
+path="res://.godot/imported/DirtDown.png-a473b76d1e1df4699591bc4d1b7ede9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Tiles/png/128x128/DirtDown.png"
-dest_files=["res://.godot/imported/DirtDown.png-c9d3c3d3865bdb61d051032a9b3c23f0.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Tiles/png/128x128/DirtDown.png"
+dest_files=["res://.godot/imported/DirtDown.png-a473b76d1e1df4699591bc4d1b7ede9e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://owboartw8ukr"
-path="res://.godot/imported/Eye.png-439843620e0dd4d37f1ae5768c694f9f.ctex"
+path="res://.godot/imported/Eye.png-d4472610b695cf4f25ffd343e1f3be2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Character/png/1x/Eye.png"
-dest_files=["res://.godot/imported/Eye.png-439843620e0dd4d37f1ae5768c694f9f.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Character/png/1x/Eye.png"
+dest_files=["res://.godot/imported/Eye.png-d4472610b695cf4f25ffd343e1f3be2d.ctex"]
 
 [params]
 

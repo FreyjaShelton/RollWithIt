@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdx175srmx7o7"
-path="res://.godot/imported/LeftHand&Arm.png-0a8b757ecd0e3e847f7369fdca35b9fd.ctex"
+path="res://.godot/imported/LeftHand&Arm.png-65709f44499678d893438d1924b637bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Character/png/4x/LeftHand&Arm.png"
-dest_files=["res://.godot/imported/LeftHand&Arm.png-0a8b757ecd0e3e847f7369fdca35b9fd.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Character/png/4x/LeftHand&Arm.png"
+dest_files=["res://.godot/imported/LeftHand&Arm.png-65709f44499678d893438d1924b637bb.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg3qnatnswgx6"
-path="res://.godot/imported/Chain-1.png-6465b32f18f1c52e0687b3dd1bdc7983.ctex"
+path="res://.godot/imported/Chain-1.png-2b0473b191ea5a3c95e5fd57759ff94a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/New Enemy/8x/Chain-1.png"
-dest_files=["res://.godot/imported/Chain-1.png-6465b32f18f1c52e0687b3dd1bdc7983.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/New Enemy/8x/Chain-1.png"
+dest_files=["res://.godot/imported/Chain-1.png-2b0473b191ea5a3c95e5fd57759ff94a.ctex"]
 
 [params]
 

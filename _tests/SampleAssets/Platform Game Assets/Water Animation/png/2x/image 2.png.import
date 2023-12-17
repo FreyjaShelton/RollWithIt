@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgoygcw31k42q"
-path="res://.godot/imported/image 2.png-56d3de9355f9cae0cd16027d1481b4d1.ctex"
+path="res://.godot/imported/image 2.png-f3747dfce73fdd04ba96b7d104cbf60b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Water Animation/png/2x/image 2.png"
-dest_files=["res://.godot/imported/image 2.png-56d3de9355f9cae0cd16027d1481b4d1.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Water Animation/png/2x/image 2.png"
+dest_files=["res://.godot/imported/image 2.png-f3747dfce73fdd04ba96b7d104cbf60b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbchedg0enleq"
-path="res://.godot/imported/model-2-8-4x.png-68ba19d31e2e2ed2c923b018bdc89d5a.ctex"
+path="res://.godot/imported/model-2-8-4x.png-8ffbf7e7d8303556694c79e223d207fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.8.5/New Chests/png/Separate/Model-2/4x/model-2-8-4x.png"
-dest_files=["res://.godot/imported/model-2-8-4x.png-68ba19d31e2e2ed2c923b018bdc89d5a.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.8.5/New Chests/png/Separate/Model-2/4x/model-2-8-4x.png"
+dest_files=["res://.godot/imported/model-2-8-4x.png-8ffbf7e7d8303556694c79e223d207fd.ctex"]
 
 [params]
 

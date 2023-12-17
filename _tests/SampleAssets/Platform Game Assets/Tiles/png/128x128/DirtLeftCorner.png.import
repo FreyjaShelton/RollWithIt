@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdk6tw5y5u6en"
-path="res://.godot/imported/DirtLeftCorner.png-918998804e439af5f9c48edfc52c90f3.ctex"
+path="res://.godot/imported/DirtLeftCorner.png-9c109b504653510b9bc31d0b6aa0b89e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Tiles/png/128x128/DirtLeftCorner.png"
-dest_files=["res://.godot/imported/DirtLeftCorner.png-918998804e439af5f9c48edfc52c90f3.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Tiles/png/128x128/DirtLeftCorner.png"
+dest_files=["res://.godot/imported/DirtLeftCorner.png-9c109b504653510b9bc31d0b6aa0b89e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://batk3nb5dxkux"
-path="res://.godot/imported/Spike_Left&Right.png-3e6fbb712e03b9b2a205641f8769aa8c.ctex"
+path="res://.godot/imported/Spike_Left&Right.png-69c47e2a678d30b05c1869bc053d4d04.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Platform Game Assets/Enemies/png/64x64/Spike_Left&Right.png"
-dest_files=["res://.godot/imported/Spike_Left&Right.png-3e6fbb712e03b9b2a205641f8769aa8c.ctex"]
+source_file="res://_tests/SampleAssets/Platform Game Assets/Enemies/png/64x64/Spike_Left&Right.png"
+dest_files=["res://.godot/imported/Spike_Left&Right.png-69c47e2a678d30b05c1869bc053d4d04.ctex"]
 
 [params]
 

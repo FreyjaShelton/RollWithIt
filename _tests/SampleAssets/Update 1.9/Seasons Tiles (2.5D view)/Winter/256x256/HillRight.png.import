@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b86n614kda4bb"
-path="res://.godot/imported/HillRight.png-1411461270834d0b5fbed96844713665.ctex"
+path="res://.godot/imported/HillRight.png-6cd64045cb334a520f46ad6b81fe26bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Winter/256x256/HillRight.png"
-dest_files=["res://.godot/imported/HillRight.png-1411461270834d0b5fbed96844713665.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Winter/256x256/HillRight.png"
+dest_files=["res://.godot/imported/HillRight.png-6cd64045cb334a520f46ad6b81fe26bc.ctex"]
 
 [params]
 

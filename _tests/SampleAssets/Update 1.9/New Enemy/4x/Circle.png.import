@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df5o3ciaxiac6"
-path="res://.godot/imported/Circle.png-e7fe84265538a6a0faa6ef25a4e05858.ctex"
+path="res://.godot/imported/Circle.png-4b87819f51715e9d22c1d8d511749291.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/New Enemy/4x/Circle.png"
-dest_files=["res://.godot/imported/Circle.png-e7fe84265538a6a0faa6ef25a4e05858.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/New Enemy/4x/Circle.png"
+dest_files=["res://.godot/imported/Circle.png-4b87819f51715e9d22c1d8d511749291.ctex"]
 
 [params]
 

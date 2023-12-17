@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpaye7kptthlq"
-path="res://.godot/imported/GrassCliffLeft.png-35740b6a0cc85a7d42ec1d7337145fca.ctex"
+path="res://.godot/imported/GrassCliffLeft.png-2892d22b10d06880aa9fb6c24982f9c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Winter/512x512/GrassCliffLeft.png"
-dest_files=["res://.godot/imported/GrassCliffLeft.png-35740b6a0cc85a7d42ec1d7337145fca.ctex"]
+source_file="res://_tests/SampleAssets/Update 1.9/Seasons Tiles (2.5D view)/Winter/512x512/GrassCliffLeft.png"
+dest_files=["res://.godot/imported/GrassCliffLeft.png-2892d22b10d06880aa9fb6c24982f9c5.ctex"]
 
 [params]
 
