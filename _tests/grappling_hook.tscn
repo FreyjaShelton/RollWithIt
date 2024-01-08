@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b71oq8tfvfuvv"]
+
+[ext_resource type="Script" path="res://_tests/grappling_hook.gd" id="1_6824v"]
+
+[node name="GrapplingHook" type="Node2D"]
+script = ExtResource("1_6824v")
+
+[node name="Line2D" type="Line2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="."]

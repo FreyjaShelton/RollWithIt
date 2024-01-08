@@ -8,6 +8,14 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var double_jump = false
 var wall_slide = false
 var is_ground_pound = false
+var grappling_hook
+
+func _ready() -> void:
+	grappling_hook = $GrapplingHook
+
+	var grapple_points: Array = get_tree().get_nodes_in_group("grapple_points")
+	for point in grapple_points:
+		point.connect("grapple_point_pressed", self, "_on_grapple_point_pressed")
 
 func _physics_process(delta):
 	handle_ground_pound()
@@ -23,10 +31,22 @@ func _physics_process(delta):
 		handle_acceleration(input_axis, delta)
 		handle_air_acceleration(input_axis, delta)
 		handle_wall_slide(input_axis, delta)
+		handle_grapple()
 	
 	var was_on_floor = is_on_floor()
 	move_and_slide()
 	handle_coyote_jump(was_on_floor)
+
+func handle_grapple():
+	if Input.is_action_just_pressed("ui_grapple"):
+		var mouse_position: Vector2 = get_global_mouse_position()
+		grappling_hook.start_grapple(mouse_position)
+
+	if Input.is_action_just_released("ui_grapple"):
+		grappling_hook.end_grapple()
+
+func _on_grapple_point_pressed(point: Vector2):
+	grappling_hook.start_grapple(point)
 
 func apply_gravity(delta):
 	if not is_on_floor() and not wall_slide:
@@ -64,6 +84,9 @@ func handle_wall_slide(input_axis, delta):
 			wall_slide = true
 			velocity.y += gravity * delta * movement_data.wall_slide_speed
 			velocity.y = min(velocity.y, movement_data.max_wall_slide_speed)
+			# line below is used to make it so that you dont slide up a wall if you start will climbing it while jumping up
+			# TODO: currently breaks wall jump upward velocity if you are holding towards the wall
+			#velocity.y = max(velocity.y, Vector2.ZERO.y)
 		else:
 			wall_slide = false
 

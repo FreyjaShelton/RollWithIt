@@ -1,11 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://cfc0yt0vnr8aw"]
+[gd_scene load_steps=10 format=3 uid="uid://cfc0yt0vnr8aw"]
 
-[ext_resource type="Texture2D" uid="uid://b68wgls3ce1d2" path="res://_tests/icon.svg" id="1_62ypc"]
 [ext_resource type="Script" path="res://_tests/player.gd" id="1_mma7c"]
 [ext_resource type="Resource" uid="uid://5gvo54bam3w8" path="res://_tests/PlayerMovementData/DefaultMovementData.tres" id="2_yyfqa"]
+[ext_resource type="Texture2D" uid="uid://bjmlspdonf5g1" path="res://_tests/PossumRollsmall.png" id="3_bsst4"]
+[ext_resource type="PackedScene" uid="uid://b71oq8tfvfuvv" path="res://_tests/grappling_hook.tscn" id="4_lhurm"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_d35nu"]
-size = Vector2(16, 16)
+[sub_resource type="CircleShape2D" id="CircleShape2D_m7upn"]
+radius = 8.0
 
 [sub_resource type="Animation" id="Animation_gnsl1"]
 resource_name = "GroundPoundInit"
@@ -45,26 +46,26 @@ step = 0.01
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/path = NodePath("Sprite2D:scale")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.05, 0.2, 0.35, 0.4),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(-2.98023e-07, -2.98023e-07), Vector2(0, 6), Vector2(0, 7), Vector2(0, 7), Vector2(-2.98023e-07, -2.98023e-07)]
+"values": [Vector2(0.125, 0.125), Vector2(0.165039, 0.0322266), Vector2(0.201172, 0.015625), Vector2(0.201172, 0.015625), Vector2(0.125, 0.125)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:scale")
+tracks/1/path = NodePath("Sprite2D:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.05, 0.2, 0.35, 0.4),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(0.125, 0.125), Vector2(0.165039, 0.0322266), Vector2(0.201172, 0.015625), Vector2(0.201172, 0.015625), Vector2(0.125, 0.125)]
+"values": [Vector2(-2.98023e-07, -2.98023e-07), Vector2(0, 6), Vector2(0, 7), Vector2(0, 7), Vector2(-2.98023e-07, -2.98023e-07)]
 }
 tracks/2/type = "method"
 tracks/2/imported = false
@@ -86,14 +87,14 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/path = NodePath("Sprite2D:scale")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [0.0]
+"values": [Vector2(0.125, 0.125)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -110,14 +111,14 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Sprite2D:scale")
+tracks/2/path = NodePath("Sprite2D:rotation")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector2(0.125, 0.125)]
+"values": [0.0]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cvx80"]
@@ -133,13 +134,13 @@ floor_snap_length = 3.0
 script = ExtResource("1_mma7c")
 movement_data = ExtResource("2_yyfqa")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_d35nu")
-
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-2.98023e-07, -2.98023e-07)
 scale = Vector2(0.125, 0.125)
-texture = ExtResource("1_62ypc")
+texture = ExtResource("3_bsst4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_m7upn")
 
 [node name="CoyoteJumpTimer" type="Timer" parent="."]
 wait_time = 0.1
@@ -147,9 +148,12 @@ one_shot = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -25)
+zoom = Vector2(0.5, 0.5)
 position_smoothing_enabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_cvx80")
 }
+
+[node name="GrapplingHook" parent="." instance=ExtResource("4_lhurm")]

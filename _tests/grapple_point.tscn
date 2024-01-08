@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://txr265l8dwof"]
+
+[ext_resource type="Texture2D" uid="uid://c5elfd8545yg0" path="res://_tests/SampleAssets/Update 1.9/New Enemy/2x/Square.png" id="1_gaivu"]
+[ext_resource type="Script" path="res://_tests/grapple_point.gd" id="1_gmhc2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mvdd6"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_gmhc2")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_mvdd6")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(1.19209e-07, 0)
+scale = Vector2(0.148438, 0.148438)
+texture = ExtResource("1_gaivu")
