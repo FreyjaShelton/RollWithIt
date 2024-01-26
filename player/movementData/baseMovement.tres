@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="PlayerMovementData" load_steps=2 format=3 uid="uid://dbejhsudfq7e1"]
+
+[ext_resource type="Script" path="res://player/movementData/playerMovementData.gd" id="1_kgfxj"]
+
+[resource]
+script = ExtResource("1_kgfxj")
+speed = 120.0
+acceleration = 800.0
+friction = 1000.0
+air_resistance = 200.0
+air_acceleration = 500.0
+jump_velocity = -350.0
+gravity_scale = 1.0
+wall_slide_speed = 5
+max_wall_slide_speed = 80
+ground_pound = true
+ground_pound_speed = 500
