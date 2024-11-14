@@ -4,6 +4,9 @@ extends Resource
 @export var speed = 120.0
 @export var acceleration = 800.0
 @export var friction = 1000.0
+@export var roll_speed = 300.0
+@export var roll_acceleration = 500.0
+@export var roll_friction = 50.0
 @export var air_resistance = 150.0
 @export var air_acceleration = 400.0
 @export var jump_velocity = -350.0

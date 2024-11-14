@@ -8,7 +8,7 @@
 script = ExtResource("1_li4qx")
 
 [node name="Player" parent="." instance=ExtResource("1_ip6i1")]
-position = Vector2(303, 393)
+position = Vector2(1769, 366)
 
 [node name="Ground" type="Node" parent="."]
 
@@ -38,9 +38,24 @@ position = Vector2(520, 400)
 [node name="StaticBody2D8" parent="Ground/platforms" instance=ExtResource("2_0d7kp")]
 position = Vector2(944, 416)
 
+[node name="StaticBody2D9" parent="Ground/platforms" instance=ExtResource("2_0d7kp")]
+position = Vector2(1616, 397)
+
+[node name="StaticBody2D10" parent="Ground/platforms" instance=ExtResource("2_0d7kp")]
+position = Vector2(2131, 385)
+
+[node name="StaticBody2D11" parent="Ground/platforms" instance=ExtResource("2_0d7kp")]
+position = Vector2(1410, 395)
+
+[node name="StaticBody2D12" parent="Ground/platforms" instance=ExtResource("2_0d7kp")]
+position = Vector2(1993, 397)
+
+[node name="StaticBody2D13" parent="Ground/platforms" instance=ExtResource("2_0d7kp")]
+position = Vector2(2374, 385)
+
 [node name="StaticBody2D" type="StaticBody2D" parent="Ground"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Ground/StaticBody2D"]
-polygon = PackedVector2Array(-64, 0, 64, 0, 64, 512, 224, 512, 288, 480, 360, 480, 416, 512, 480, 512, 480, 584, 552, 584, 552, 512, 632, 512, 720, 512, 768, 480, 856, 480, 896, 504, 968, 512, 1088, 448, 1088, 0, 1216, 0, 1216, 720, -64, 712)
+polygon = PackedVector2Array(-64, 0, 64, 0, 64, 512, 224, 512, 288, 480, 360, 480, 416, 512, 480, 512, 480, 584, 552, 584, 552, 512, 632, 512, 720, 512, 768, 480, 856, 480, 896, 504, 968, 512, 1088, 448, 18351, 477, 18383, 722, 1216, 720, -64, 712)
 
 [node name="Polygon2D" type="Polygon2D" parent="Ground/StaticBody2D/CollisionPolygon2D"]

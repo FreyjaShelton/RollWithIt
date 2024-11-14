@@ -2,6 +2,7 @@ extends State
 
 @export var idle_state: State
 @export var air_state: State
+@export var roll_state: State
 
 func enter() -> void:
 	super()
@@ -25,5 +26,9 @@ func handle_state():
 	if !player.is_on_floor():
 		player.coyote_jump_timer.start()
 		return air_state
+	
+	if Input.is_action_just_pressed("roll"):
+		print("go to roll from run")
+		return roll_state
 	
 	return null

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://b35yprvwfqx1l"]
+[gd_scene load_steps=16 format=3 uid="uid://b35yprvwfqx1l"]
 
 [ext_resource type="Texture2D" uid="uid://c4a1niq2y7we8" path="res://assets/icon.svg" id="1_iehek"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_iol46"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" path="res://player/stateMachine/Air.gd" id="6_uukb8"]
 [ext_resource type="Script" path="res://player/stateMachine/GroundPound.gd" id="8_f0ll7"]
 [ext_resource type="Script" path="res://player/stateMachine/WallSlide.gd" id="9_ymp57"]
+[ext_resource type="Script" path="res://player/stateMachine/Roll.gd" id="10_0idnq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tcaqm"]
 
@@ -167,19 +168,25 @@ one_shot = true
 wait_time = 0.2
 one_shot = true
 
+[node name="RollIdle" type="Timer" parent="Timers"]
+wait_time = 15.0
+one_shot = true
+
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("starting_state")]
 script = ExtResource("4_nywrc")
 starting_state = NodePath("Idle")
 
-[node name="Idle" type="Node" parent="StateMachine" node_paths=PackedStringArray("air_state", "run_state")]
+[node name="Idle" type="Node" parent="StateMachine" node_paths=PackedStringArray("air_state", "run_state", "roll_state")]
 script = ExtResource("4_syt1c")
 air_state = NodePath("../Air")
 run_state = NodePath("../Run")
+roll_state = NodePath("../Roll")
 
-[node name="Run" type="Node" parent="StateMachine" node_paths=PackedStringArray("idle_state", "air_state")]
+[node name="Run" type="Node" parent="StateMachine" node_paths=PackedStringArray("idle_state", "air_state", "roll_state")]
 script = ExtResource("5_2xcmb")
 idle_state = NodePath("../Idle")
 air_state = NodePath("../Air")
+roll_state = NodePath("../Roll")
 
 [node name="Air" type="Node" parent="StateMachine" node_paths=PackedStringArray("idle_state", "run_state", "ground_pound_state", "wall_slide_state")]
 script = ExtResource("6_uukb8")
@@ -200,6 +207,12 @@ idle_state = NodePath("../Idle")
 run_state = NodePath("../Run")
 air_state = NodePath("../Air")
 ground_pound_state = NodePath("../GroundPound")
+
+[node name="Roll" type="Node" parent="StateMachine" node_paths=PackedStringArray("idle_state", "run_state", "air_state")]
+script = ExtResource("10_0idnq")
+idle_state = NodePath("../Idle")
+run_state = NodePath("../Run")
+air_state = NodePath("../Air")
 
 [node name="LeftInner" type="RayCast2D" parent="."]
 position = Vector2(5, 0)

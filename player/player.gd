@@ -5,6 +5,7 @@ extends CharacterBody2D
 @onready var animations = $AnimationPlayer
 @onready var coyote_jump_timer = $Timers/CoyoteJumpTimer
 @onready var jump_buffer_timer = $Timers/JumpBuffer
+@onready var roll_idle_timer = $Timers/RollIdle
 @onready var sprite = $Sprite
  
 @export var movement_data: PlayerMovementData
