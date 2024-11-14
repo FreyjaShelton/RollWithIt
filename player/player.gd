@@ -36,4 +36,3 @@ func handle_double_jump():
 
 func handle_sprite():
 	sprite.flip_h = input_axis > 0
-
