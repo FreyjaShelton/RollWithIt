@@ -10,7 +10,7 @@ func enter() -> void:
 	super()
 	is_ground_pound = false
 
-func process_physics(delta: float) -> State:
+func process_physics(_delta: float) -> State:
 	if !player.is_on_floor() and player.movement_data.ground_pound and !is_ground_pound:
 		is_ground_pound = true
 		player.velocity = Vector2.ZERO

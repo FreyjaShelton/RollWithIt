@@ -19,6 +19,8 @@ func process_physics(delta: float) -> State:
 	if player.input_axis == 0:
 		player.velocity.x = move_toward(player.velocity.x, 0, player.movement_data.roll_friction * delta)
 	
+	player.sprite.rotation_degrees += player.velocity.x * delta * 2
+	
 	player.move_and_slide()
 	
 	return handle_state()
@@ -26,16 +28,16 @@ func process_physics(delta: float) -> State:
 func _on_roll_idle_timeout() -> void:
 	is_idle = true
 	player.roll_idle_timer.stop()
-	print("timeout")
 
 func handle_state():
+	if player.input_axis != 0 and player.roll_idle_timer.time_left > 0:
+		player.roll_idle_timer.stop()
+	
 	if is_idle:
-		print("go to idle state")
 		return idle_state
 	
-	if player.is_on_floor() and player.input_axis == 0 and player.roll_idle_timer.is_stopped():
+	if player.is_on_floor() and player.input_axis == 0 and player.velocity.x == 0 and player.roll_idle_timer.is_stopped():
 		player.roll_idle_timer.start()
-		print("start idle timer")
 	
 	if Input.is_action_just_pressed("roll"):
 		if player.input_axis == 0:

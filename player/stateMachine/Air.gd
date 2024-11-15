@@ -14,6 +14,7 @@ func enter() -> void:
 	super()
 	var new_texture = preload("res://icon.svg")
 	player.sprite.texture = new_texture
+	player.sprite.rotation_degrees = 0
 
 func process_physics(delta: float) -> State:
 	player.velocity.y += gravity * delta * player.movement_data.gravity_scale
