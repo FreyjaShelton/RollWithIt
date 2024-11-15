@@ -169,7 +169,7 @@ wait_time = 0.2
 one_shot = true
 
 [node name="RollIdle" type="Timer" parent="Timers"]
-wait_time = 15.0
+wait_time = 10.0
 one_shot = true
 
 [node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("starting_state")]
@@ -229,3 +229,5 @@ target_position = Vector2(0, -20)
 [node name="RightOuter" type="RayCast2D" parent="."]
 position = Vector2(-10, 0)
 target_position = Vector2(0, -20)
+
+[connection signal="timeout" from="Timers/RollIdle" to="StateMachine/Roll" method="_on_roll_idle_timeout"]

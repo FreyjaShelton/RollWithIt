@@ -4,10 +4,13 @@ extends State
 @export var run_state: State
 @export var air_state: State
 
+var is_idle: bool
+
 func enter() -> void:
 	super()
 	var new_texture = preload("res://roll.png")
 	player.sprite.texture = new_texture
+	is_idle = false
 
 func process_physics(delta: float) -> State:
 	if player.input_axis != 0:
@@ -20,20 +23,24 @@ func process_physics(delta: float) -> State:
 	
 	return handle_state()
 
+func _on_roll_idle_timeout() -> void:
+	is_idle = true
+	player.roll_idle_timer.stop()
+	print("timeout")
+
 func handle_state():
+	if is_idle:
+		print("go to idle state")
+		return idle_state
 	
-	# Timer to handle the player returning to idle state after a set amount of time
-	# need to start timer if player isnt moving and on the ground
-	# then when the timer ends, return to the idle state
-	#if player.is_on_floor() and player.input_axis == 0 and player.roll_idle_timer.is_stopped():
-	#	player.roll_idle_timer.start()
+	if player.is_on_floor() and player.input_axis == 0 and player.roll_idle_timer.is_stopped():
+		player.roll_idle_timer.start()
+		print("start idle timer")
 	
 	if Input.is_action_just_pressed("roll"):
 		if player.input_axis == 0:
-			print("return to idle")
 			return idle_state
 		else:
-			print("return to run")
 			return run_state
 	
 	if Input.is_action_just_pressed("jump"):

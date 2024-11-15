@@ -6,6 +6,8 @@ extends State
 
 func enter() -> void:
 	super()
+	var new_texture = preload("res://icon.svg")
+	player.sprite.texture = new_texture
 
 func process_physics(delta: float) -> State:
 	if player.input_axis != 0:
@@ -28,7 +30,6 @@ func handle_state():
 		return air_state
 	
 	if Input.is_action_just_pressed("roll"):
-		print("go to roll from run")
 		return roll_state
 	
 	return null
